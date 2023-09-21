@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Kalam&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script
+    src="https://kit.fontawesome.com/988e35861c.js"
+    crossorigin="anonymous"
+  ></script>
+
+    <title>Blog Website</title>
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar-container">
+      <!-- logo -->
+      <ul class="nav-header">
+        <li class="logo">
+          <!-- link for icon home back -->
+          <a href="/BlogWebsiteProject-HTML/index.html">
+          <i class="fab fa-accusoft"></i>
+        </a>
+        </li>
+        <!-- menu icon -->
+        <li class="toggle">
+          <i class="fas fa-bars"></i>
+          <!-- replace with frontaweson -->
+        </li>
+      </ul>
+
+      <!-- nav items -->
+      <ul class="nav-items">
+        <li class="nav-link">
+          <a href="/BlogWebsiteProject-HTML/pages/allPost.html">Posts</a>
+        </li>
+
+        <li class="nav-link">
+          <a href="/">New Post</a>
+        </li>
+
+        <li class="nav-link">
+          <a href="/">Support</a>
+        </li>
+      </ul>
+      <!-- nav left -->
+      <ul class="nav-left">
+
+        <!-- login btn -->
+        <li class="nav-link btn login">
+          <a href="/BlogWebsiteProject-HTML/pages/login.html">
+            <button>Login</button>
+          </a>
+        </li>
+
+        <!-- register btn -->
+        <li class="nav-link btn register">
+          <a href="/BlogWebsiteProject-HTML/pages/register.html">
+            <button>Register</button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start hero banner -->
+    <header class="container">
+      <h1>Read what you want and share what you think</h1>
+      <p>
+      <div class="line1">
+        The scariest moment is always just before you start.
+      </div>
+      <div class="line2">
+        Share your thoughts now
+      </div>
+      </p>
+      <a href="/BlogWebsiteProject-HTML/pages/createnewpost.html" customAttr="Create New Post" class="btn left">
+        <button>Create New Post</button>
+      </a>
+    </header>
+    <!-- end hero banner -->
+
+    <!-- latest post tile start -->
+    <section class="latest-psit-title">
+      <h2>Latest Post</h2>
+    </section>
+    <!-- end latest post title -->
+
+    <!-- blog post -->
+    <section class="post-container">
+      <!-- post-1 -->
+      <div class="post-item-wrapper">
+        <img src="./images/web-Design.jpg" alt="post-item-img">
+        <div class="post-item-content">
+          <h3>How to learn web development</h3>
+
+          <!-- user avatar -->
+          <div class="user-avatar-container">
+            <img src="./images/cat.png" alt="user">
+            <!-- <p>Vivek Boro</p>
+            <p>Date</p> -->
+
+        <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="/BlogWebsiteProject-HTML/pages/profile.html">Vivek Boro</a> <br> <br>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2022-09-01"> January 1, 2020</time>
+            </span>
+          </p>
+        </div>
+          <!-- end user avatar -->
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum porro magnam quos accusamus magni exercitationem facere quisquam officia, dolor ab facilis maiores natus fuga libero ut nulla molestias laudantium!</p>
+        <button>
+          <a href="/BlogWebsiteProject-HTML/pages/postdetails.html">Read More</a>
+        </button>
+        <div class="category">
+          <button class="btn-1">Web Development</button>
+        </div>
+        </div>
+      </div>
+      <!-- post-1 end -->
+
+       <!-- post-2 -->
+       <div class="post-item-wrapper">
+            <img src="./images/nodejs_cover_photo_smaller_size.png" alt="post-item-img">
+            <div class="post-item-content">
+              <h3>Why Node js</h3>
+    
+              <!-- user avatar -->
+              <div class="user-avatar-container">
+                <img src="./images/cat.png" alt="user">
+                <p class="post-info">
+                  <span class="post-author">
+                    <i class="fas fa-user"></i>
+                    <a href="#">Vivek Boro</a> <br> <br>
+                  </span>
+                  <span class="post-date">
+                    <i class="far fa-calendar-alt"></i>
+                    <time datetime="2020-01-01"> January 1, 2020</time>
+                  </span>
+                </p>
+              </div>
+              <!-- end user avatar -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum porro magnam quos accusamus magni exercitationem facere quisquam officia, dolor ab facilis maiores natus fuga libero ut nulla molestias laudantium!</p>
+            <button>
+              <a href="">Read More</a>
+            </button>
+            <div class="category">
+              <button class="btn-2">Node js</button>
+            </div>
+            </div>
+       </div>
+       <!-- post-2 end -->
+
+           <!-- post-3 -->
+      <div class="post-item-wrapper">
+        <img src="./images/react.png" alt="post-item-img">
+        <div class="post-item-content">
+          <h3>Learn React js</h3>
+
+          <!-- user avatar -->
+          <div class="user-avatar-container">
+            <img src="./images/cat.png" alt="user">
+            <p class="post-info">
+              <span class="post-author">
+                <i class="fas fa-user"></i>
+                <a href="#">Vivek Boro</a> <br> <br>
+              </span>
+              <span class="post-date">
+                <i class="far fa-calendar-alt"></i>
+                <time datetime="2020-01-01"> January 1, 2020</time>
+              </span>
+            </p>
+          </div>
+          <!-- end user avatar -->
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum porro magnam quos accusamus magni exercitationem facere quisquam officia, dolor ab facilis maiores natus fuga libero ut nulla molestias laudantium!</p>
+        <button>
+          <a href="">Read More</a>
+        </button>
+        <div class="category">
+          <button class="btn-3">React js</button>
+        </div>
+        </div>
+      </div>
+      <!-- post-3 end -->
+
+       <!-- post-4 -->
+       <div class="post-item-wrapper">
+            <img src="./images/css.png" alt="post-item-img">
+            <div class="post-item-content">
+              <h3>Learn CSS for effective styling</h3>
+    
+              <!-- user avatar -->
+              <div class="user-avatar-container">
+                <img src="./images/cat.png" alt="user">
+                <p class="post-info">
+                  <span class="post-author">
+                    <i class="fas fa-user"></i>
+                    <a href="#">Vivek Boro</a> <br> <br>
+                  </span>
+                  <span class="post-date">
+                    <i class="far fa-calendar-alt"></i>
+                    <time datetime="2020-01-01"> January 1, 2020</time>
+                  </span>
+                </p>
+              </div>
+              <!-- end user avatar -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum porro magnam quos accusamus magni exercitationem facere quisquam officia, dolor ab facilis maiores natus fuga libero ut nulla molestias laudantium!</p>
+            <button>
+              <a href="">Read More</a>
+            </button>
+            <div class="category">
+              <button class="btn-4">CSS</button>
+            </div>
+            </div>
+       </div>
+       <!-- post-4 end -->
+
+           <!-- post-5 -->
+      <div class="post-item-wrapper">
+        <img src="./images/web-Design.jpg" alt="post-item-img">
+        <div class="post-item-content">
+          <h3>How to learn web development</h3>
+
+          <!-- user avatar -->
+          <div class="user-avatar-container">
+            <img src="./images/cat.png" alt="user">
+            <p class="post-info">
+              <span class="post-author">
+                <i class="fas fa-user"></i>
+                <a href="#">Vivek Boro</a> <br> <br>
+              </span>
+              <span class="post-date">
+                <i class="far fa-calendar-alt"></i>
+                <time datetime="2020-01-01"> January 1, 2020</time>
+              </span>
+            </p>
+          </div>
+          <!-- end user avatar -->
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum porro magnam quos accusamus magni exercitationem facere quisquam officia, dolor ab facilis maiores natus fuga libero ut nulla molestias laudantium!</p>
+        <button>
+          <a href="">Read More</a>
+        </button>
+        <div class="category">
+          <button class="btn-1">Web Development</button>
+        </div>
+        </div>
+      </div>
+      <!-- post-5 end -->
+
+       <!-- post-6 -->
+       <div class="post-item-wrapper">
+            <img src="./images/nodejs_cover_photo_smaller_size.png" alt="post-item-img">
+            <div class="post-item-content">
+              <h3>Why Node js</h3>
+    
+              <!-- user avatar -->
+              <div class="user-avatar-container">
+                <img src="./images/cat.png" alt="user">
+                <p class="post-info">
+                  <span class="post-author">
+                    <i class="fas fa-user"></i>
+                    <a href="#">Vivek Boro</a> <br> <br>
+                  </span>
+                  <span class="post-date">
+                    <i class="far fa-calendar-alt"></i>
+                    <time datetime="2020-01-01"> January 1, 2020</time>
+                  </span>
+                </p>
+              </div>
+              <!-- end user avatar -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum porro magnam quos accusamus magni exercitationem facere quisquam officia, dolor ab facilis maiores natus fuga libero ut nulla molestias laudantium!</p>
+            <button>
+              <a href="">Read More</a>
+            </button>
+            <div class="category">
+              <button class="btn-2">Node js</button>
+            </div>
+            </div>
+       </div>
+       <!-- post-6 end -->
+
+    </section>
+    <!-- blog post end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="about">
+        <h1><span class="logo-text">Blogger </span> <span>Point</span></h1>
+        <h3>
+          You write, we read
+        </h3>
+        <!-- Contacts -->
+        <div class="contact">
+          <span>
+            <i class="fas fa-phone"></i>
+            + (91) 911100 2276
+          </span>
+          <span>
+            <i class="fas fa-envelope"></i>
+            
+            <a href="mailto:borovivek3678@gamil.com">
+              support@gamil.com
+            </a>
+          </span>
+  
+        </div>
+        <!-- socials -->
+        <div class="socials">
+          </a>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+         
+    </footer>
+    <!-- footer end -->
+
+  </body>
+</html>
